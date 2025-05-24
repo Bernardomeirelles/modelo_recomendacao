@@ -79,7 +79,7 @@ O notebook está organizado nas seguintes seções:
     *   Gera e exibe uma `Matriz de Confusão` visual usando `seaborn`/`matplotlib`, mostrando os acertos e erros do modelo, com explicações.
 
 ### 10. Salvar o Modelo Treinado
-
+*   **Observação** Não consegui usar pickle pois estava com dificuldade para usar a biblioteca então usei o keras
 *   **Objetivo:** Salvar o modelo final treinado em um arquivo `.keras`. Isso permite reutilizar o modelo posteriormente sem a necessidade de retreiná-lo.
 *   **Código:** Usa `final_model.save()` para salvar o modelo. Como a função `custom_standardization` foi registrada, ela é salva junto com o modelo.
 
